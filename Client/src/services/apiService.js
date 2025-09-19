@@ -1,6 +1,6 @@
 // API Service - Replaces localStorage functionality with MongoDB backend calls
 import hackathonConfig from '../config/hackathonConfig';
-const API_BASE_URL = process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:5000/api';
+const API_BASE_URL = process.env.NODE_ENV === 'production' ? '/api' : import.meta.env.VITE_API_URL;
 
 class ApiService {
   constructor() {

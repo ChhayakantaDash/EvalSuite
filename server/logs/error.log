@@ -451,3 +451,10 @@ Stack: VersionError: No matching document found for id "68cd056be65788e5052e4041
     at model.save (F:\EvalSuite\EvalSuite\server\node_modules\mongoose\lib\model.js:629:28)
     at F:\EvalSuite\EvalSuite\server\routes\evaluationRoutes.js:129:44
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-19T11:00:29.071Z] [ERROR] Failed to save evaluation
+Error: No matching document found for id "68cd056be65788e5052e4041" version 61 modifiedPaths "juries, juries.0, juries.0.teamEvaluations, juries.0.teamEvaluations.0, juries.0.teamEvaluations.0.lastModified, juries.0.teamEvaluations.1, juries.0.teamEvaluations.1.lastModified, juries.0.teamEvaluations.2, juries.0.teamEvaluations.2.lastModified, juries.0.teamEvaluations.3, juries.0.teamEvaluations.3.lastModified, juries.0.teamEvaluations.4, juries.0.teamEvaluations.4.lastModified, juries.0.lastActivity, autoSave, autoSave.lastAutoSave"
+Stack: VersionError: No matching document found for id "68cd056be65788e5052e4041" version 61 modifiedPaths "juries, juries.0, juries.0.teamEvaluations, juries.0.teamEvaluations.0, juries.0.teamEvaluations.0.lastModified, juries.0.teamEvaluations.1, juries.0.teamEvaluations.1.lastModified, juries.0.teamEvaluations.2, juries.0.teamEvaluations.2.lastModified, juries.0.teamEvaluations.3, juries.0.teamEvaluations.3.lastModified, juries.0.teamEvaluations.4, juries.0.teamEvaluations.4.lastModified, juries.0.lastActivity, autoSave, autoSave.lastAutoSave"
+    at generateVersionError (F:\EvalSuite\EvalSuite\server\node_modules\mongoose\lib\model.js:571:10)
+    at model.save (F:\EvalSuite\EvalSuite\server\node_modules\mongoose\lib\model.js:629:28)
+    at F:\EvalSuite\EvalSuite\server\routes\evaluationRoutes.js:129:44
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

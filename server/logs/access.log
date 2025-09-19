@@ -3593,3 +3593,70 @@
 [2025-09-19T10:10:57.863Z] [INFO] [TEAM] Processing scores for team 5
 [2025-09-19T10:10:58.231Z] [INFO] Successfully saved evaluation for jury 1
 2025-09-19T10:10:58.234Z POST /api/evaluations/jury/1 200 915.776 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T10:25:35.926Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T10:25:39.386Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T10:27:20.818Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T10:27:33.394Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T10:27:37.134Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T10:30:04.270Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T10:30:07.803Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T10:53:03.961Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T10:53:07.330Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T11:00:20.077Z OPTIONS /api/events/active/jury/1 204 21.629 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:00:20.116Z OPTIONS /api/events/active/jury/1 204 27.439 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:00:20.152Z] [INFO] Finding active event
+2025-09-19T11:00:20.954Z GET /api/events/active/jury/1 200 833.602 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:00:20.972Z] [INFO] Finding active event
+2025-09-19T11:00:21.168Z GET /api/events/active/jury/1 304 195.612 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:00:24.858Z OPTIONS /api/evaluations/jury/1 204 0.599 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:00:24.861Z OPTIONS /api/evaluations/jury/1 204 0.313 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:00:25.205Z] [INFO] [START] Processing evaluation submission for jury 1 (auto-save)
+[2025-09-19T11:00:25.207Z] [INFO] Finding active event
+[2025-09-19T11:00:25.217Z] [INFO] [START] Processing evaluation submission for jury 1 (auto-save)
+[2025-09-19T11:00:25.220Z] [INFO] Finding active event
+[2025-09-19T11:00:25.547Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T11:00:25.550Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T11:00:25.582Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T11:00:25.595Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T11:00:25.600Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T11:00:25.610Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T11:00:26.030Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T11:00:26.033Z POST /api/evaluations/jury/1 200 1169.721 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:00:26.813Z] [INFO] [START] Processing evaluation submission for jury 1 (auto-save)
+[2025-09-19T11:00:26.823Z] [INFO] Finding active event
+[2025-09-19T11:00:27.380Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T11:00:27.409Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T11:00:27.429Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T11:00:27.458Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T11:00:27.481Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T11:00:27.531Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T11:00:27.865Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T11:00:27.907Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T11:00:27.948Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T11:00:27.980Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T11:00:28.014Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T11:00:28.047Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T11:00:28.296Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T11:00:28.369Z POST /api/evaluations/jury/1 200 1535.192 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:00:29.093Z POST /api/evaluations/jury/1 500 3876.075 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:00:29.659Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T11:00:29.660Z] [INFO] Finding active event
+[2025-09-19T11:00:29.860Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T11:00:29.874Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T11:00:29.891Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T11:00:29.897Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T11:00:29.912Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T11:00:29.928Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T11:00:30.124Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T11:00:30.127Z POST /api/evaluations/jury/1 200 468.357 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:00:56.075Z OPTIONS /api/evaluations/jury/1 204 0.308 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:00:56.079Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T11:00:56.082Z] [INFO] Finding active event
+[2025-09-19T11:00:57.142Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T11:00:57.143Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T11:00:57.150Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T11:00:57.156Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T11:00:57.160Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T11:00:57.165Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T11:00:57.479Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T11:00:57.483Z POST /api/evaluations/jury/1 200 1404.784 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36

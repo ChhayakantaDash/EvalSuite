@@ -12,7 +12,7 @@ const eventRoutes = require('./routes/eventRoutes');
 const evaluationRoutes = require('./routes/evaluationRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5078;
 
 // Middleware
 app.use(httpLogger);
