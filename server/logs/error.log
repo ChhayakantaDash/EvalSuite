@@ -458,3 +458,5 @@ Stack: VersionError: No matching document found for id "68cd056be65788e5052e4041
     at model.save (F:\EvalSuite\EvalSuite\server\node_modules\mongoose\lib\model.js:629:28)
     at F:\EvalSuite\EvalSuite\server\routes\evaluationRoutes.js:129:44
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-09-19T11:52:40.619Z] [ERROR] [DB] 🔌 Disconnected from MongoDB
+[2025-09-19T11:52:59.402Z] [ERROR] [DB] 🔌 Disconnected from MongoDB

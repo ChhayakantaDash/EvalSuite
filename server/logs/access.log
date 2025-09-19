@@ -3715,3 +3715,40 @@
 [2025-09-19T11:09:10.507Z] [INFO] Successfully saved evaluation for jury 1
 [2025-09-19T11:20:47.364Z] [INFO] [DB] Attempting to connect to MongoDB...
 [2025-09-19T11:20:49.028Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T11:42:03.515Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T11:42:04.760Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T11:43:29.361Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T11:43:31.378Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T11:43:39.690Z GET /api 404 17.656 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:44:14.331Z GET /api/health 200 6.699 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:44:14.442Z GET /favicon.ico 500 10.088 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:44:30.690Z GET /api 404 1.545 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:46:55.391Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T11:46:56.819Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T11:47:07.846Z GET /api/health 200 18.732 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:47:08.396Z GET /favicon.ico 500 58.069 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:47:18.718Z GET /api/health 200 8.056 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:47:19.068Z GET /favicon.ico 500 18.108 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:47:28.182Z GET /api 404 18.428 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:48:19.199Z GET / 500 49.970 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:48:19.518Z GET /favicon.ico 500 24.849 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:48:56.035Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T11:48:57.682Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T11:48:57.786Z GET / 500 30.195 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T11:48:57.852Z GET /favicon.ico 500 11.785 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T11:51:43.524Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T11:51:43.552Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T11:51:48.382Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T11:51:48.391Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T11:51:49.911Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T11:52:29.975Z] [INFO] [DB] 🔄 Reconnected to MongoDB
+[2025-09-19T11:52:30.012Z] [INFO] [DB] 🔄 Reconnected to MongoDB
+[2025-09-19T11:52:41.304Z] [INFO] [DB] 🔄 Reconnected to MongoDB
+[2025-09-19T11:53:09.711Z] [INFO] [DB] 🔄 Reconnected to MongoDB
+[2025-09-19T12:07:59.172Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T12:07:59.183Z] [INFO] [DB] Attempting to connect to MongoDB...
+2025-09-19T12:08:04.392Z GET /api 404 9.508 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:08:07.397Z GET /api 404 2.463 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:08:08.222Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T12:08:14.381Z GET / 200 3.877 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:08:14.469Z GET /favicon.ico 404 0.866 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36

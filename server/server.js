@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 require('dotenv').config({ path: './.env' });
 const { httpLogger, logger } = require('./utils/logger');
 
@@ -12,7 +13,7 @@ const eventRoutes = require('./routes/eventRoutes');
 const evaluationRoutes = require('./routes/evaluationRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 5078;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(httpLogger);
@@ -20,7 +21,13 @@ app.use(cors());
 app.use(express.json());
 // Serve built client (Client/dist) when available
 const clientDistPath = path.join(__dirname, '../Client/dist');
-app.use(express.static(clientDistPath));
+const clientIndexPath = path.join(clientDistPath, 'index.html');
+const clientDistExists = fs.existsSync(clientIndexPath);
+if (clientDistExists) {
+  app.use(express.static(clientDistPath));
+} else {
+  logger.info('[SERVER] Client build not found at Client/dist. Skipping static serving.');
+}
 
 // Database connection
 const configuredDbName = process.env.MONGODB_DB || process.env.MONGODB_DBNAME;
@@ -81,17 +88,17 @@ app.get('/api/health', (req, res) => {
 });
 
 // Serve static files from Client/dist (when built)
-app.use(express.static(clientDistPath));
+if (clientDistExists) {
+  app.use(express.static(clientDistPath));
 
-// SPA fallback for client-side routing
-app.get('*', (req, res, next) => {
-  if (req.path.startsWith('/api')) return next();
-  try {
-    return res.sendFile(path.join(clientDistPath, 'index.html'));
-  } catch (e) {
-    return next();
-  }
-});
+  // SPA fallback for client-side routing
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(clientIndexPath, (err) => {
+      if (err) return next();
+    });
+  });
+}
 
 // Basic route for testing
 app.get('/', (req, res) => {
@@ -116,10 +123,10 @@ app.use((err, req, res, next) => {
   });
 });
 
-// app.listen(PORT, () => {
-//   console.log(`🚀 Server running on port ${PORT}`);
-//   console.log(`🌐 API available at http://localhost:${PORT}/api`);
-//   console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
-// });
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`🌐 API available at http://localhost:${PORT}/api`);
+  console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
+});
 
 module.exports = app;
