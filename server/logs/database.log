@@ -2964,3 +2964,6 @@
 [2025-09-19T12:38:55.979Z] [DATABASE] connection_attempt: {"uri":"mongodb+srv://***:***@cluster0.hk7d3iz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0","database":""}
 [2025-09-19T12:38:57.234Z] [DATABASE] connection_success: {"database":"test","host":"ac-c7tubja-shard-00-00.hk7d3iz.mongodb.net","port":27017,"readyState":1}
 [2025-09-19T12:38:57.338Z] [DATABASE] query: {"collection":"events","method":"createIndex","query":{"eventId":1},"doc":{"unique":true,"background":true}}
+[2025-09-19T12:50:56.772Z] [DATABASE] connection_attempt: {"uri":"mongodb+srv://***:***@cluster0.hk7d3iz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0","database":""}
+[2025-09-19T12:50:59.578Z] [DATABASE] connection_success: {"database":"test","host":"ac-c7tubja-shard-00-00.hk7d3iz.mongodb.net","port":27017,"readyState":1}
+[2025-09-19T12:50:59.700Z] [DATABASE] query: {"collection":"events","method":"createIndex","query":{"eventId":1},"doc":{"unique":true,"background":true}}
