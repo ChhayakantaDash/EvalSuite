@@ -87,18 +87,18 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// Serve static files from Client/dist (when built)
-if (clientDistExists) {
-  app.use(express.static(clientDistPath));
+// // Serve static files from Client/dist (when built)
+// if (clientDistExists) {
+//   app.use(express.static(clientDistPath));
 
-  // SPA fallback for client-side routing
-  app.get('*', (req, res, next) => {
-    if (req.path.startsWith('/api')) return next();
-    res.sendFile(clientIndexPath, (err) => {
-      if (err) return next();
-    });
-  });
-}
+//   // SPA fallback for client-side routing
+//   app.get('*', (req, res, next) => {
+//     if (req.path.startsWith('/api')) return next();
+//     res.sendFile(clientIndexPath, (err) => {
+//       if (err) return next();
+//     });
+//   });
+// }
 
 // Basic route for testing
 app.get('/', (req, res) => {
@@ -123,10 +123,10 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`🌐 API available at http://localhost:${PORT}/api`);
-  console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
-});
+// app.listen(PORT, () => {
+//   console.log(`🚀 Server running on port ${PORT}`);
+//   console.log(`🌐 API available at http://localhost:${PORT}/api`);
+//   console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
+// });
 
 module.exports = app;

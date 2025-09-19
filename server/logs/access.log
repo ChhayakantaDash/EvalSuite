@@ -3864,3 +3864,48 @@
 [2025-09-19T12:29:41.557Z] [INFO] [TEAM] Processing scores for team 5
 [2025-09-19T12:29:41.735Z] [INFO] Successfully saved evaluation for jury 1
 2025-09-19T12:29:41.738Z POST /api/evaluations/jury/1 200 920.760 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:36:41.081Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:36:50.588Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T12:38:05.287Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:38:07.918Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T12:38:13.012Z GET /api/health 200 150.013 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:14.860Z GET /sw.js 304 2.771 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.434Z GET / 304 2.439 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.510Z GET /assets/js/index-E2b_XQlr.js 304 3.760 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.512Z GET /assets/js/config-data-BpN_aHec.js 304 4.459 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.522Z GET /assets/js/router-vendor-U-ftz1_b.js 304 7.824 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.522Z GET /assets/styles/index-DRd9-t2v.css 304 7.765 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.524Z GET /assets/js/react-vendor-D_DbgjUg.js 304 7.926 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.525Z GET /assets/js/hooks-_jU0lTyI.js 304 7.478 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.527Z GET /assets/js/utils-DGhFvuEH.js 304 6.797 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.534Z GET /assets/MarkingPage-BsVYzYn1.jsx 304 2.721 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.542Z GET /assets/dataStorage-DyKld3hC.js 304 2.212 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.543Z GET /assets/AdminPage-frK3PJ5t.jsx 304 2.333 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.676Z GET /assets/js/Homepage-DZnkfDFY.js 304 2.232 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.678Z GET /assets/js/Footer-CpPVgsMD.js 304 2.246 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.781Z GET /src/utils/excelExport.js 404 9.144 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.783Z GET /src/pages/AdminPage.jsx 404 9.938 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.794Z GET /manifest.json 304 1.836 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.800Z GET /pmec-logo.png 304 4.385 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.804Z GET /pmec-logo.png 304 0.913 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.838Z GET /icons/icon-144x144.png 404 1.586 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:21.867Z GET /pmec-logo.png 304 0.910 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:23.624Z GET /sw.js 304 1.173 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:34.469Z GET /assets/js/MarkingPage-C-4xJ772.js 304 4.319 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:38:34.471Z GET /assets/js/apiService-D17svaHs.js 304 3.701 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:38:34.505Z] [INFO] Finding active event
+2025-09-19T12:38:34.939Z GET /api/events/active/jury/1 200 441.137 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:38:34.943Z] [INFO] Finding active event
+2025-09-19T12:38:35.213Z GET /api/events/active/jury/1 304 270.221 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:38:47.755Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T12:38:47.758Z] [INFO] Finding active event
+[2025-09-19T12:38:48.511Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T12:38:48.512Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T12:38:48.526Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T12:38:48.531Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T12:38:48.535Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T12:38:48.539Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T12:38:48.988Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T12:38:48.990Z POST /api/evaluations/jury/1 200 1395.146 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:38:55.938Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:38:57.233Z] [INFO] [DB] ✅ Connected to MongoDB successfully
