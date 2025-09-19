@@ -1,4 +1,4 @@
-{
+  {
     "version": 2,
     "builds": [
         {
@@ -6,15 +6,15 @@
             "use": "@vercel/node",
             "config": {
                 "includeFiles": [
-                    "routes/**",
-                    "models/**",
-                    "utils/**",
-                    "middleware/**"
+                    "dist/**"
                 ]
             }
         }
     ],
     "routes": [
-        { "src": "/api/(.*)", "dest": "server.js" }
+        {
+            "src": "/(.*)",
+            "dest": "server.js"
+        }
     ]
 }

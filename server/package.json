@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "init": "node scripts/initializeDatabase.js",
-    "vercel-build": "npm ci --prefix ../Client && npm run build --prefix ../Client"
+    "init": "node scripts/initializeDatabase.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
