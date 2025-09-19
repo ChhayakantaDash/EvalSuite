@@ -3752,3 +3752,115 @@
 [2025-09-19T12:08:08.222Z] [INFO] [DB] ✅ Connected to MongoDB successfully
 2025-09-19T12:08:14.381Z GET / 200 3.877 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 2025-09-19T12:08:14.469Z GET /favicon.ico 404 0.866 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:17:05.783Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T12:17:05.786Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:17:08.386Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T12:17:53.926Z OPTIONS /api/events/active/jury/1 204 2.757 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:17:53.932Z] [INFO] Finding active event
+2025-09-19T12:17:53.961Z OPTIONS /api/events/active/jury/1 204 0.483 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:17:54.283Z GET /api/events/active/jury/1 200 350.043 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:17:54.287Z] [INFO] Finding active event
+2025-09-19T12:17:54.598Z GET /api/events/active/jury/1 304 310.486 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:18:01.907Z OPTIONS /api/evaluations/jury/1 204 0.276 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:18:02.132Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T12:18:02.133Z] [INFO] Finding active event
+[2025-09-19T12:18:02.342Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T12:18:02.352Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T12:18:02.416Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T12:18:02.433Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T12:18:02.499Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T12:18:02.528Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T12:18:02.730Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T12:18:02.733Z POST /api/evaluations/jury/1 200 822.473 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:18:29.206Z OPTIONS /api/evaluations/jury/1 204 0.330 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:18:29.209Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T12:18:29.216Z] [INFO] Finding active event
+2025-09-19T12:18:29.367Z POST /api/evaluations/jury/1 - - ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:18:29.441Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T12:18:29.450Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T12:18:29.459Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T12:18:29.473Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T12:18:29.485Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T12:18:29.490Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T12:18:29.946Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T12:19:06.312Z OPTIONS /api/events/active/jury/1 204 0.323 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:19:06.314Z] [INFO] Finding active event
+2025-09-19T12:19:06.319Z OPTIONS /api/events/active/jury/1 204 0.171 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:19:06.551Z GET /api/events/active/jury/1 200 237.030 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:19:06.556Z] [INFO] Finding active event
+2025-09-19T12:19:06.790Z GET /api/events/active/jury/1 304 232.722 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:21:24.482Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T12:21:24.499Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:21:35.283Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T12:21:43.894Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T12:21:43.898Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:21:45.260Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T12:21:52.721Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T12:21:52.733Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:21:54.344Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+[2025-09-19T12:22:00.932Z] [INFO] [SERVER] Client build not found at Client/dist. Skipping static serving.
+[2025-09-19T12:22:00.938Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:22:04.360Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T12:22:38.457Z OPTIONS /api/evaluations/jury/1 204 3.800 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:22:38.517Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T12:22:38.519Z] [INFO] Finding active event
+[2025-09-19T12:22:38.785Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T12:22:38.792Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T12:22:38.827Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T12:22:38.923Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T12:22:39.154Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T12:22:39.179Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T12:22:39.826Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T12:22:39.838Z POST /api/evaluations/jury/1 200 1375.866 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:22:50.775Z GET /api 404 7.083 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:28:13.677Z] [INFO] [DB] Attempting to connect to MongoDB...
+[2025-09-19T12:28:15.758Z] [INFO] [DB] ✅ Connected to MongoDB successfully
+2025-09-19T12:28:24.953Z GET /api 404 16.881 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.584Z GET / 200 12.955 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.661Z GET /assets/js/router-vendor-U-ftz1_b.js 200 18.749 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.663Z GET /assets/js/react-vendor-D_DbgjUg.js 200 26.431 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.665Z GET /assets/js/hooks-_jU0lTyI.js 200 21.464 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.666Z GET /assets/js/config-data-BpN_aHec.js 200 21.743 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.668Z GET /assets/styles/index-DRd9-t2v.css 200 22.915 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.672Z GET /assets/js/index-E2b_XQlr.js 200 14.355 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.684Z GET /assets/js/utils-DGhFvuEH.js 200 11.764 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.687Z GET /assets/MarkingPage-BsVYzYn1.jsx 200 8.987 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.689Z GET /assets/dataStorage-DyKld3hC.js 200 9.590 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.693Z GET /assets/AdminPage-frK3PJ5t.jsx 200 14.677 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.818Z GET /assets/js/Homepage-DZnkfDFY.js 200 15.619 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.821Z GET /assets/js/Footer-CpPVgsMD.js 200 16.107 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.898Z GET /src/pages/AdminPage.jsx 200 15.340 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.906Z GET /src/utils/excelExport.js 200 29.709 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.920Z GET /sw.js 200 29.298 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.937Z GET /manifest.json 200 19.538 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.940Z GET /pmec-logo.png 200 15.739 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.951Z GET /pmec-logo.png 304 7.176 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.958Z GET / 304 1.462 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.960Z GET /manifest.json 304 1.658 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:32.980Z GET /icons/icon-144x144.png 200 2.754 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:41.951Z GET /assets/js/apiService-D17svaHs.js 200 13.465 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-09-19T12:28:41.959Z GET /assets/js/MarkingPage-C-4xJ772.js 200 24.515 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:28:41.986Z] [INFO] Finding active event
+2025-09-19T12:28:42.301Z GET /api/events/active/jury/1 200 316.184 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:28:42.308Z] [INFO] Finding active event
+2025-09-19T12:28:42.502Z GET /api/events/active/jury/1 304 194.291 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:29:03.690Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T12:29:03.690Z] [INFO] Finding active event
+[2025-09-19T12:29:03.866Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T12:29:03.868Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T12:29:03.882Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T12:29:03.892Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T12:29:03.896Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T12:29:03.907Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T12:29:04.089Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T12:29:04.090Z POST /api/evaluations/jury/1 200 484.895 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-19T12:29:40.825Z] [INFO] [START] Processing evaluation submission for jury 1
+[2025-09-19T12:29:40.832Z] [INFO] Finding active event
+[2025-09-19T12:29:41.524Z] [INFO] [JURY] Found jury Dr. Anita Sharma (ID: 1)
+[2025-09-19T12:29:41.525Z] [INFO] [TEAM] Processing scores for team 1
+[2025-09-19T12:29:41.532Z] [INFO] [TEAM] Processing scores for team 2
+[2025-09-19T12:29:41.537Z] [INFO] [TEAM] Processing scores for team 3
+[2025-09-19T12:29:41.542Z] [INFO] [TEAM] Processing scores for team 4
+[2025-09-19T12:29:41.557Z] [INFO] [TEAM] Processing scores for team 5
+[2025-09-19T12:29:41.735Z] [INFO] Successfully saved evaluation for jury 1
+2025-09-19T12:29:41.738Z POST /api/evaluations/jury/1 200 920.760 ms - ::1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
